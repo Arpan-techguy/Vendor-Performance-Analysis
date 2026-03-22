@@ -155,18 +155,23 @@ Vendor_Performance_Analysis/
 ---
 
 
-## Data Pipeline Overview
+## 🚀 End-to-End Data Workflow
 
 ```mermaid
-graph TD;
-    A[Define Business Problem] --> B[Explore DB with SQL];
-    B --> C[Clean & Merge Tables];
-    C --> D[Create Aggregated Table];
-    D --> E[Save to SQLite DB];
-    D --> F[Load in Jupyter];
-    F --> G[Perform EDA];
-    G --> H[Create Power BI Dashboard];
-    H --> I[Report Insights];
+flowchart LR
+    A([📌 Define Business Problem]) --> B([🗄️ Explore DB (SQL)])
+    B --> C([🧹 Clean & Merge Tables])
+    C --> D([📊 Create Aggregated Table])
+    
+    D --> E([💾 Store in SQLite DB])
+    D --> F([📓 Load in Jupyter Notebook])
+    
+    F --> G([🔍 Perform EDA])
+    G --> H([📈 Build Power BI Dashboard])
+    H --> I([📢 Report Insights])
+    
+    classDef process fill:#E3F2FD,stroke:#1E88E5,color:#000;
+    class A,B,C,D,E,F,G,H,I process;
 ```
 
 ---
