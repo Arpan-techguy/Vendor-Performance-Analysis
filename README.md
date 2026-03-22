@@ -171,10 +171,7 @@ Vendor_Performance_Analysis/
 
 
 
-## Power BI Dashboard Preview
 
-Below is a preview of the Power BI dashboard showing key vendor KPIs:
-<img width="1071" height="604" alt="Image" src="./PowerBI1.png /"> 
 
 ---
 
