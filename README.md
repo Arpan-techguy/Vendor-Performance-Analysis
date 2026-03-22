@@ -153,18 +153,21 @@ Vendor_Performance_Analysis/
 │
 └── README.md                        # Project documentation
 
-## 🚀 End-to-End Data Workflow
 
-```mermaid
-flowchart LR
-    A([Define Business Problem]) --> B([Explore DB (SQL)])
-    B --> C([Clean & Merge Tables])
-    C --> D([Create Aggregated Table])
-    D --> E([Store in SQLite DB])
-    D --> F([Load in Jupyter Notebook])
-    F --> G([Perform EDA])
-    G --> H([Build Power BI Dashboard])
-    H --> I([Report Insights])
+
+## 🚀 Workflow Pipeline
+
+| Step | Process |
+|------|--------|
+| 1 | Define Business Problem |
+| 2 | Explore DB using SQL |
+| 3 | Clean & Merge Tables |
+| 4 | Create Aggregated Table |
+| 5 | Store in SQLite DB |
+| 6 | Load in Jupyter Notebook |
+| 7 | Perform EDA |
+| 8 | Build Power BI Dashboard |
+| 9 | Report Insights |
 
 
 
