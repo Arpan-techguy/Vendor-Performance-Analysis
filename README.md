@@ -126,7 +126,7 @@ ORDER BY ps.TotalPurchaseDollars DESC
 
 
 ## 📂 Folder Structure
-
+```
 ├── data/
 │   └── vendor_sales_summary.csv
 ├── notebooks/
@@ -140,6 +140,7 @@ ORDER BY ps.TotalPurchaseDollars DESC
 ├── reports/
 │   └── Vendor Performance Report.pdf
 └── README.md
+```
 
 ## 🚀 Workflow Pipeline
 
