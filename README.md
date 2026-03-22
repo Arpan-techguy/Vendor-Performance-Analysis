@@ -127,33 +127,19 @@ ORDER BY ps.TotalPurchaseDollars DESC
 
 ## 📂 Folder Structure
 
-```
-Vendor_Performance_Analysis/
-│
 ├── data/
-│   └── inventory.db                  # SQLite database 
-│
-├── sql/                               # SQL scripts for data cleaning and aggregation
-│
+│   └── vendor_sales_summary.csv
 ├── notebooks/
-│   └── Vendor_Performance_Analysis.ipynb  # Main notebook
-│
-│
-├── logs/
-│   └── ingestion.log                 # Logs for ETL operations
-│
+│   ├── Exploratory Data Analysis.ipynb
+│   └── Vendor Performance Analysis.ipynb
 ├── scripts/
-│   └── ingest_to_db.py              # Save aggregated table to DB
-│
-├── powerbi/
-│   └── dashboard.pbix               # Power BI dashboard file
-│
-├── report/
-│   └── final_report.pdf             # Business summary
-│
-└── README.md                        # Project documentation
-
-
+│   ├── get_vendor_summary.py
+│   └── ingestion_db.py
+├── dashboard/
+│   └── vendor_performance.pbix
+├── reports/
+│   └── Vendor Performance Report.pdf
+└── README.md
 
 ## 🚀 Workflow Pipeline
 
