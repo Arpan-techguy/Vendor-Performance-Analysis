@@ -154,25 +154,18 @@ Vendor_Performance_Analysis/
 └── README.md                        # Project documentation
 ---
 
-
 ## 🚀 End-to-End Data Workflow
 
 ```mermaid
 flowchart LR
-    A([📌 Define Business Problem]) --> B([🗄️ Explore DB (SQL)])
-    B --> C([🧹 Clean & Merge Tables])
-    C --> D([📊 Create Aggregated Table])
-    
-    D --> E([💾 Store in SQLite DB])
-    D --> F([📓 Load in Jupyter Notebook])
-    
-    F --> G([🔍 Perform EDA])
-    G --> H([📈 Build Power BI Dashboard])
-    H --> I([📢 Report Insights])
-    
-    classDef process fill:#E3F2FD,stroke:#1E88E5,color:#000;
-    class A,B,C,D,E,F,G,H,I process;
-```
+    A([Define Business Problem]) --> B([Explore DB (SQL)])
+    B --> C([Clean & Merge Tables])
+    C --> D([Create Aggregated Table])
+    D --> E([Store in SQLite DB])
+    D --> F([Load in Jupyter Notebook])
+    F --> G([Perform EDA])
+    G --> H([Build Power BI Dashboard])
+    H --> I([Report Insights])
 
 ---
 
