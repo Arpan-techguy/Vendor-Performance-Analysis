@@ -152,7 +152,6 @@ Vendor_Performance_Analysis/
 │   └── final_report.pdf             # Business summary
 │
 └── README.md                        # Project documentation
----
 
 ## 🚀 End-to-End Data Workflow
 
@@ -167,7 +166,7 @@ flowchart LR
     G --> H([Build Power BI Dashboard])
     H --> I([Report Insights])
 
----
+
 
 ## Power BI Dashboard Preview
 
